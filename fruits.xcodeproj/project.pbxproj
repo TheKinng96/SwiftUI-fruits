@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B2A9CA08286344F0002F9C95 /* FruitModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A9CA07286344F0002F9C95 /* FruitModel.swift */; };
 		B2A9CA0A286345A1002F9C95 /* FruitData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A9CA09286345A1002F9C95 /* FruitData.swift */; };
 		B2A9CA0C28634C17002F9C95 /* FruitRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A9CA0B28634C17002F9C95 /* FruitRowView.swift */; };
 		B2AD23B62861F1DF008D9EE8 /* fruitsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2AD23B52861F1DF008D9EE8 /* fruitsApp.swift */; };
@@ -21,7 +20,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B2A9CA07286344F0002F9C95 /* FruitModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitModel.swift; sourceTree = "<group>"; };
 		B2A9CA09286345A1002F9C95 /* FruitData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitData.swift; sourceTree = "<group>"; };
 		B2A9CA0B28634C17002F9C95 /* FruitRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitRowView.swift; sourceTree = "<group>"; };
 		B2AD23B22861F1DF008D9EE8 /* fruits.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fruits.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -46,14 +44,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		B2A9CA06286344C0002F9C95 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				B2A9CA07286344F0002F9C95 /* FruitModel.swift */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
 		B2AD23A92861F1DF008D9EE8 = {
 			isa = PBXGroup;
 			children = (
@@ -73,7 +63,6 @@
 		B2AD23B42861F1DF008D9EE8 /* fruits */ = {
 			isa = PBXGroup;
 			children = (
-				B2A9CA06286344C0002F9C95 /* Model */,
 				B2AD23CB2861F910008D9EE8 /* Utilities */,
 				B2AD23C82861F730008D9EE8 /* Components */,
 				B2AD23C32861F4C5008D9EE8 /* Data */,
@@ -204,7 +193,6 @@
 				B2AD23CF2861FDA9008D9EE8 /* StartButton.swift in Sources */,
 				B2AD23D12862003E008D9EE8 /* OnboardingView.swift in Sources */,
 				B2AD23B62861F1DF008D9EE8 /* fruitsApp.swift in Sources */,
-				B2A9CA08286344F0002F9C95 /* FruitModel.swift in Sources */,
 				B2A9CA0A286345A1002F9C95 /* FruitData.swift in Sources */,
 				B2AD23CD2861F91D008D9EE8 /* Extensions.swift in Sources */,
 			);
