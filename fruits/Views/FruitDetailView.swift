@@ -30,6 +30,8 @@ struct FruitDetailView: View {
               .multilineTextAlignment(.leading)
             
             // MARK: - NUTRIENTS
+            Nutrient(fruit: fruit)
+            
             // MARK: - SUBHEADLINE
             Text("Learn more about \(fruit.title)".uppercased())
               .foregroundColor(fruit.gradientColors[1])

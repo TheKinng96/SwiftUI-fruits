@@ -21,6 +21,7 @@
 		B2AD23CD2861F91D008D9EE8 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2AD23CC2861F91D008D9EE8 /* Extensions.swift */; };
 		B2AD23CF2861FDA9008D9EE8 /* StartButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2AD23CE2861FDA9008D9EE8 /* StartButton.swift */; };
 		B2AD23D12862003E008D9EE8 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2AD23D02862003E008D9EE8 /* OnboardingView.swift */; };
+		B2D18A4A2865E19B003A39D9 /* Nutrient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D18A492865E19B003A39D9 /* Nutrient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		B2AD23CC2861F91D008D9EE8 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		B2AD23CE2861FDA9008D9EE8 /* StartButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartButton.swift; sourceTree = "<group>"; };
 		B2AD23D02862003E008D9EE8 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		B2D18A492865E19B003A39D9 /* Nutrient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nutrient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +127,7 @@
 				B2A9CA0B28634C17002F9C95 /* FruitRowView.swift */,
 				B27DBC2B2865155D0060811A /* HeaderView.swift */,
 				B27DBC2D28651A080060811A /* DetailFootLink.swift */,
+				B2D18A492865E19B003A39D9 /* Nutrient.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -208,6 +211,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B27DBC2E28651A080060811A /* DetailFootLink.swift in Sources */,
+				B2D18A4A2865E19B003A39D9 /* Nutrient.swift in Sources */,
 				B2AD23CA2861F777008D9EE8 /* FruitCardView.swift in Sources */,
 				B2AD23B82861F1DF008D9EE8 /* ContentView.swift in Sources */,
 				B2A9CA1128634F92002F9C95 /* FruitDetailView.swift in Sources */,
