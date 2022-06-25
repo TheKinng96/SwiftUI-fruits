@@ -8,7 +8,9 @@
 import SwiftUI
 
 struct ContentView: View {
+  @State private var isSettingOpened: Bool = false
   var fruits: [Fruit] = fruitData
+
   var body: some View {
     NavigationView {
       List(fruits.shuffled()) { item in
@@ -18,6 +20,16 @@ struct ContentView: View {
         }
       }
       .navigationTitle("Fruits")
+      .navigationBarItems(
+        trailing: Button(action: {
+          isSettingOpened = true
+        }, label: {
+          Image(systemName: "slider.horizontal.3")
+        }) //: BUTTON
+          .sheet(isPresented: $isSettingOpened, content: {
+            SettingView()
+          })
+      )
     }//: NAVIGATION
   }
 }
