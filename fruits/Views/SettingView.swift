@@ -9,7 +9,8 @@ import SwiftUI
 
 struct SettingView: View {
   @Environment(\.presentationMode) var presentationMode
-  
+  @AppStorage("isOnboarding") var isOnboarding: Bool = false
+
   var body: some View {
     NavigationView {
       ScrollView(.vertical, showsIndicators: false) {
@@ -33,6 +34,35 @@ struct SettingView: View {
           }
           
           // MARK: - SECTION 2
+          GroupBox(label: SettingLabel(labelText: "Onboarding", imageLabel: "paintbrush.fill")
+          ) {
+              Divider()
+                .padding(.vertical, 4)
+              
+              Text("This button will let you toggle the onBoarding guide screen, please feel free to try it.")
+                .padding(.vertical, 8)
+                .font(.footnote)
+                .foregroundColor(.secondary)
+                .multilineTextAlignment(.leading)
+              
+              Toggle(isOn: $isOnboarding) {
+                if isOnboarding {
+                  Text("Restarted".uppercased())
+                    .fontWeight(.bold)
+                    .foregroundColor(.green)
+                } else {
+                  Text("Restart".uppercased())
+                    .fontWeight(.bold)
+                    .foregroundColor(.secondary)
+                }
+              }
+              .padding()
+              .background(
+                Color(UIColor.tertiarySystemBackground)
+                  .clipShape(RoundedRectangle(cornerRadius: 8, style: .continuous))
+              )
+          }
+          
           // MARK: - SECTION 3
           GroupBox(
             label: SettingLabel(labelText: "Application", imageLabel: "apps.iphone")
